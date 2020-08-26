@@ -1,11 +1,14 @@
-import React, { Component } from 'React';
+import React, { Component } from 'react';
+import hi from './test.js';
 
 class App extends Component{
   render(){
     return(
       <div classname="App">
-        <nav_bar></nav_bar>
+        <hi></hi>
       </div>
     );
   }
 }
+
+export default App;
