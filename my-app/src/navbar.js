@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class nav_bar extends Component{
+class Nav_bar extends Component{
   render(){
     return(
       <div classname="nav_bar">
@@ -44,10 +44,10 @@ class nav_bar extends Component{
                 <a class="navbar-item">
                   Contact
                 </a>
-                <hr class="navbar-divider">
+                <hr class="navbar-divider" />
                 <a class="navbar-item">
                   Report an issue
-                </a></hr>
+                </a>
               </div>
             </div>
           </div>
@@ -72,4 +72,4 @@ class nav_bar extends Component{
       }
     }
 
-export default nav_bar;
+export default Nav_bar;
